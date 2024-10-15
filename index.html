@@ -24,10 +24,32 @@
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="header-container container">
+    <header class="header-section">
+        <div class="header-top">
+         <form class="header-dropdown-list">
+            <label for="header-choose-language">
+                <svg  class="header-earth" width="24" height="24">
+                    <use href="./img/icons.svg#icon-earth"></use>
+                </svg>
+            </label>
+            <select id="header-choose-language" name="choose-language">
+                <option class="header-lang" value="english">EN (UK)</option>
+                <option class="header-lang" value="ukrainian">UA</option>
+                <option class="header-lang" value="russian">RU</option>
+            </select>
+        </form>
+        <p class="header-text">Availiable  in  <span class="header-span active">English</span>  /  <span class="header-span">Ukrainain</span>  /  <span class="header-span">Russian</span></p>
+        <address>
+            <a class="header-phone" href="tel:447748xxxxxx">
+                <svg  class="header-phone-icon" width="24" height="24">
+                    <use href="./img/icons.svg#icon-phone"></use>
+                </svg>
+                + (44) 77 48 xxx xxx</a>
+        </address>    
+        </div>
+       <div class="header-bottom">
+        <p class="header-logo">Ksena*</p>
              <div class="header-left-wrapper">
-                 <p class="header-logo">Ksena*</p>
                  <nav class="header-nav">
                      <a class="header-nav-link" href="#about" name="about">About me</a>
                      <a class="header-nav-link" href="#projects" name="projects">My projects</a>
@@ -36,11 +58,21 @@
                  </nav>
              </div>
              <div class="header-right-wrapper">
-                 <address>
-                     <a class="header-tel" href="tel:447748300645">+ (44) 77 48 300 645</a>
-                 </address>
-                 
-                 <ul class="header-socials">
+                <ul class="header-socials">
+                    <li>
+                        <a class="header-socials-link" href="tel:38096640xxxx" target="_blank">
+                            <svg width="28" height="28">
+                                <use href="./img/icons.svg#icon-whatsapp"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header-socials-link" href="#" target="_blank">
+                            <svg width="28" height="28">
+                                <use href="./img/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                      <li>
                          <a class="header-socials-link" href="#" target="_blank">
                                  <svg width="28" height="28">
@@ -48,22 +80,15 @@
                                  </svg>
                          </a>
                      </li>
-                     <li>
-                         <a class="header-socials-link" href="#" target="_blank">
-                             <svg width="28" height="28">
-                                 <use href="./img/icons.svg#icon-linkedIn"></use>
-                             </svg>
-                         </a>
-                     </li>
-                 </ul>
-                 <button class="modal-open-button" type="button" id="modal-open">
-                         <svg class="modal-open-icon" width="36" height="24">
-                             <use  href="./img/icons.svg#icon-modal"></use>
+                </ul>
+                <button class="menu-open-button" type="button" id="menu-open">
+                         <svg class="menu-open-icon" width="40" height="28">
+                             <use  href="./img/icons.svg#icon-toggle"></use>
                          </svg>
-                 </button>
+                </button>
              </div>
         </div>
-     </header>
+     </header> 
    
 
 </body>
