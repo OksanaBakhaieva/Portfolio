@@ -24,12 +24,47 @@
 </head>
 
 <body>
-    <load src="/partials/header.html"/>
-    <load src="/partials/hero.html"></load>
-    <load src="/partials/about.html"></load>
-    <load src="/partials/projects.html"></load>
-    <load src="/partials/benefits.html"></load>
-    <load src="/partials/footer.html"></load>
+    <header class="page-header">
+        <div class="header-container container">
+             <div class="header-left-wrapper">
+                 <p class="header-logo">Ksena*</p>
+                 <nav class="header-nav">
+                     <a class="header-nav-link" href="#about" name="about">About me</a>
+                     <a class="header-nav-link" href="#projects" name="projects">My projects</a>
+                     <a class="header-nav-link" href="#benefits" name="benefits">Benefits of working with me</a>
+                     <a class="header-nav-link" href="#footer" name="footer">Contacts</a>
+                 </nav>
+             </div>
+             <div class="header-right-wrapper">
+                 <address>
+                     <a class="header-tel" href="tel:447748300645">+ (44) 77 48 300 645</a>
+                 </address>
+                 
+                 <ul class="header-socials">
+                     <li>
+                         <a class="header-socials-link" href="#" target="_blank">
+                                 <svg width="28" height="28">
+                                     <use href="./img/icons.svg#icon-github"></use>
+                                 </svg>
+                         </a>
+                     </li>
+                     <li>
+                         <a class="header-socials-link" href="#" target="_blank">
+                             <svg width="28" height="28">
+                                 <use href="./img/icons.svg#icon-linkedIn"></use>
+                             </svg>
+                         </a>
+                     </li>
+                 </ul>
+                 <button class="modal-open-button" type="button" id="modal-open">
+                         <svg class="modal-open-icon" width="36" height="24">
+                             <use  href="./img/icons.svg#icon-modal"></use>
+                         </svg>
+                 </button>
+             </div>
+        </div>
+     </header>
+   
 
 </body>
 </html>
