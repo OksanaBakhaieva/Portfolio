@@ -32,7 +32,7 @@
                     <use href="./img/icons.svg#icon-earth"></use>
                 </svg>
             </label>
-            <select id="header-choose-language" name="choose-language">
+            <select id="header-choose-language" name="options">
                 <option class="header-lang" value="english">EN (UK)</option>
                 <option class="header-lang" value="ukrainian">UA</option>
                 <option class="header-lang" value="russian">RU</option>
@@ -51,10 +51,10 @@
         <p class="header-logo">Ksena*</p>
              <div class="header-left-wrapper">
                  <nav class="header-nav">
-                     <a class="header-nav-link" href="#about" name="about">About me</a>
-                     <a class="header-nav-link" href="#projects" name="projects">My projects</a>
-                     <a class="header-nav-link" href="#benefits" name="benefits">Benefits of working with me</a>
-                     <a class="header-nav-link" href="#footer" name="footer">Contacts</a>
+                     <a class="nav-link" href="#about" name="about">About me</a>
+                     <a class="nav-link" href="#projects" name="projects">Projects</a>
+                     <a class="nav-link" href="#benefits" name="benefits">Benefits</a>
+                     <a class="nav-link" href="#footer" name="footer">Contacts</a>
                  </nav>
              </div>
              <div class="header-right-wrapper">
@@ -88,8 +88,50 @@
                 </button>
              </div>
         </div>
-     </header> 
-   
+    </header> 
+    <div class="modal">
+        <div class="modal-content">
+            <h2 class="visually-hidden">Navigation</h2>
+            <nav class="modal-nav">
+                <a class="nav-link" href="#about" name="about">About me</a>
+                <a class="nav-link" href="#projects" name="projects">Projects</a>
+                <a class="nav-link" href="#benefits" name="benefits">Benefits</a>
+                <a class="nav-link" href="#footer" name="footer">Contacts</a>
+            </nav>
+            <button class="modal-close-button" id="modal-close" type="button" aria-label="modal-close-button">
+                <svg class="modal-close-icon" width="16" height="16">
+                    <use href="./img/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>    
+    </div>
+    <section class="hero-section">
+        <div class="hero-container">
+            <h1 class="hero-title"><span>Full-Stack Developer:</span> <br>Turning Ideas into Code</h1>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-container container">
+
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <div class="project-container container">
+
+        </div>
+    </section>
+
+    <section class="benefits-section" id="benefits">
+        <div class="benefits-container container">
+
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+
+    </footer>
 
 </body>
 </html>
