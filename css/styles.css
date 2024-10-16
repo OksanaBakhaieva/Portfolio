@@ -179,6 +179,7 @@ overflow: hidden;
         border: none;
         color: var(--border-color-light);
         background-color: var(--green-light);
+        padding: 0;
     }
     .header-text {
         font-size: 16px;
@@ -417,6 +418,7 @@ overflow: hidden;
 .nav-link:focus {
     color: var(--plyr-color-main);
     text-decoration: underline;
+    outline: none;
     }
 .modal-close-button {
     position: absolute;
@@ -447,7 +449,84 @@ overflow: hidden;
 /* Styles for About me section */
 .about-section {
     background-color: var(--green-dark);
-    height: 100vh;
+    height: 100vh; 
+    position: relative;
+    /* background-image: url("../img/about-me/IMG_2597-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom; */
+}
+.about-container {
+    padding-top: 32px;
+   
+}
+.about-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.37;
+    color: white; 
+    margin-bottom: 32px;
+}
+.about-text1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about-text2 {
+    margin-bottom: 50px;
+    color: white;
+}   
+
+.about-img1 {
+    display: block;
+    border-radius: 16px;
+    margin: 16px auto;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+.about-img2 {
+    display: none;
+}
+@media screen and (min-width:480px) {
+    .about-img1 {
+        width: 300px;
+    }
+}
+@media screen and (min-width:768px){
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        padding: 80px 50px;
+    }
+    .about-title { 
+        font-size: 44px;
+        line-height: 1.45;
+    }
+
+    .about-text1,
+    .about-text2 {
+        font-size: 16px;
+    }   
+    .about-img1 {
+        right: 32px;
+        bottom: 0;
+        transform: translate(-50%, 0);
+        width: 200px;
+    }
+    .about-img2 {
+    display: block; 
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0, -50%);
+
+    }
+}
+@media screen and (min-width: 1024px){
+
 }
 /* Styles for Projects section */
 .projects-section {
@@ -464,3 +543,4 @@ overflow: hidden;
     background-color: white;
     height: 100vh;
 }
+
