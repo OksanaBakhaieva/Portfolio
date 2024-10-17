@@ -20,7 +20,9 @@
     <link rel="icon" type="image/svg+xml" href="./img/favicon/favicon.svg" />
     <link rel="shortcut icon" href="./img/favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png" />
- 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <script defer src="js/index.js"></script>
 </head>
 
@@ -42,7 +44,7 @@
         <p class="header-text">Availiable  in  <span class="header-span active">English</span>  /  <span class="header-span">Ukrainain</span>  /  <span class="header-span">Russian</span></p>
         <address>
             <a class="header-phone" href="tel:447748xxxxxx">
-                <svg  class="header-phone-icon" width="24" height="24">
+                <svg  class="phone-icon" width="24" height="24">
                     <use href="./img/icons.svg#icon-phone"></use>
                 </svg>
                 + (44) 77 48 xxx xxx</a>
@@ -54,7 +56,7 @@
                  <nav class="header-nav">
                      <a class="nav-link" href="#about" name="about">About me</a>
                      <a class="nav-link" href="#portfolio" name="portfolio">portfolio</a>
-                     <a class="nav-link" href="#benefits" name="benefits">Benefits</a>
+                     <a class="nav-link" href="#benefits" name="benefits">Why create with me</a>
                      <a class="nav-link" href="#footer" name="footer">Contacts</a>
                  </nav>
              </div>
@@ -96,7 +98,7 @@
             <nav class="modal-nav">
                 <a class="nav-link" href="#about" name="about">About me</a>
                 <a class="nav-link" href="#portfolio" name="portfolio">Portfolio</a>
-                <a class="nav-link" href="#benefits" name="benefits">Benefits</a>
+                <a class="nav-link" href="#benefits" name="benefits">Why create with me</a>
                 <a class="nav-link" href="#footer" name="footer">Contacts</a>
             </nav>
             <button class="modal-close-button" id="modal-close" type="button" aria-label="modal-close-button">
@@ -108,7 +110,7 @@
     </div>
     <section class="hero-section"> 
         <div class="hero-container">
-            <h1 class="hero-title"><span>Full-Stack Developer:</span> <br>Turning Ideas into Code</h1>
+            <h1 class="hero-title">Full-Stack Developer:</br>Turning Ideas into Code</h1>
         </div>
     </section>
 
@@ -125,8 +127,9 @@
             </div>
             <div class="about-img-wrapper">
                  
-                <img class="about-img2" src="./img/about-me/IMG_2598.JPG" width="250" alt="my-photo1"/> 
-                <img class="about-img1" src="./img/about-me/IMG_2597-1.jpg" alt="my-photo2" width="200" />
+                  <img class="about-img1" src="./img/about-me/IMG_2598.JPG" width="250" alt="my-photo1"/> 
+                <img class="about-img2" src="./img/about-me/IMG_2597-1.jpg" alt="my-photo2" width="200" />
+              
             </div>
         </div>
     </section>
@@ -134,7 +137,7 @@
     <section class="portfolio-section" id="portfolio">
         <div class="portfolio-container container">
             <h2 class="portfolio-title">Portfolio</h2>
-            <p class="portfolio-text">"The only way to do great work is to love what you do."     (Albert Einstein)</p>
+            <p class="portfolio-quote">"The only way to do great work is to love what you do."     (Albert Einstein)</p>
             <div class="portfolio-gallery">
                 <ul class="portfolio-list">
                     <li class="portfolio-item">
@@ -194,10 +197,53 @@
 
     <section class="benefits-section" id="benefits">
         <div class="benefits-container container">
-
+            <p class="benefits-quote">Your ideas. My expertise</p>
+            <h2 class="benefits-title">Why create with me?</h2>
+            <p class="benefits-text">As a passionate web developer, I don’t just build websites—I craft tailored digital experiences that bring your vision to life. </p>
+            <ul class="benefits-list">
+                <li class="benefits-item">
+                    <i class="benefits-item-icon fa-solid fa-puzzle-piece"></i>
+                    <h3 class="benefits-item-title">Custom Solutions</h3>
+                    <p class="benefits-item-desc">Tailored, scalable solutions aligned with your unique goals</p>
+                </li>
+                <li class="benefits-item">
+                    <i class="benefits-item-icon fa-solid fa-magnifying-glass"></i>
+                    <h3 class="benefits-item-title">Attention to Detail</h3>
+                    <p class="benefits-item-desc">Precision, performance, and responsive design are prioritized in every line of code</p>
+                </li>
+                <li class="benefits-item">
+                    <i class="benefits-item-icon fa-regular fa-handshake"></i>
+                    <h3 class="benefits-item-title">Collaboration & Transparency</h3>
+                    <p class="benefits-item-desc">Clear communication ensures the project meets and exceeds expectations</p>
+                </li>
+                <li class="benefits-item">
+                    <i class="benefits-item-icon fa-solid fa-star"></i>
+                    <h3 class="benefits-item-title">Commitment to Excellence</h3> 
+                    <p class="benefits-item-desc">High-quality results delivered on time and within budget, from concept to completion</p>
+                </li>
+            </ul>
+           
         </div>
     </section>
-
+    <div class="contact-me">
+        <h2 class="visually-hidden">Contact me</h2>
+        <ul class="contact-me-list">
+            <li class="contact-me-item1">
+                <a class="contact-me-phone" href="tel:447748xxxxxx">
+                    <svg  class="contact-me-phone-icon" width="24" height="24">
+                        <use href="./img/icons.svg#icon-phone"></use>
+                    </svg>
+                    Talk  to  me</a>
+            </li>
+            <li class="contact-me-item2">
+                <a class="contact-me-email" href="mailto: example@gmail.com">
+                    <svg  class="contact-me-mail-icon" width="24" height="24">
+                        <use href="./img/icons.svg#icon-mail"></use>
+                    </svg>
+                    Mail  me  now</a>
+            </li>
+        </ul>
+    </div>
     <footer class="footer" id="footer">
       
         
