@@ -3,20 +3,20 @@
       {
         "name": "Focus Frame",
         "img": "./img/portfolio/Photography_School.jpg",
-        "desc": "The landing page for 'Focus.Frame' photography courses offers an overview of available courses, lectures, reviews, and more.",
+        "desc": "The landing page for 'Focus.Frame' photography courses offers an overview of available courses, lectures, reviews, and more",
         "url":"https://viktoriiaolex.github.io/code-hunters-project/"
       },
       {
         "name": "Aqua Track",
-        "img": "./img/portfolio/Photography_School.jpg",
-        "desc": "The landing page for 'Focus.Frame' photography courses offers an overview of available courses, lectures, reviews, and more.",
-        "url":"https://viktoriiaolex.github.io/code-hunters-project/"
+        "img": "./img/portfolio/Aqua_Track.jpg",
+        "desc": "Aqua Track App is an easy-to-use water tracker that lets users sign up with either email/password or their Google account. From the homepage, users can log, edit, and delete their water intake while monitoring their progress toward daily hydration goals",
+        "url":"https://aquahackers-project.vercel.app/"
       },
       {
         "name": "Ukrainian Threads",
-        "img": "./img/portfolio/Photography_School.jpg",
-        "desc": "The landing page for 'Focus.Frame' photography courses offers an overview of available courses, lectures, reviews, and more.",
-        "url":"https://viktoriiaolex.github.io/code-hunters-project/"
+        "img": "./img/portfolio/Ukrainian_Threads.jpg",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero quaerat est? Pariatur id necessitatibus illo ipsum dolore magni quam",
+        "url":"https://oksanabakhaieva.github.io/UkrainianThreads/"
       }
 
     ]

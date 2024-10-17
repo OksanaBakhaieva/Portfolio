@@ -26,14 +26,17 @@ links.forEach(link =>{
 fetch('projects.json') 
     .then(res => res.json())
     .then(data => {
+        console.log(data);
+        
         const projectsGallery = document.querySelector('.portfolio-list');
-        data.items.forEach(project => {
+        data.projects.forEach(project => {
+            console.log(project);
 
         projectsGallery.innerHTML += `
          <li class="portfolio-item">
             <a href="${project.url}" class="portfolio-link" target="_blank">
                 <img src="${project.img}" alt="Web Page of Photography School" class="portfolio-img" width="230">
-                <h3 class="portfolio-item-title">${project.name}}</h3>
+                <h3 class="portfolio-item-title">${project.name}</h3>
             </a>
             <p class="portfolio-item-description">${project.desc}</p>
         </li>
