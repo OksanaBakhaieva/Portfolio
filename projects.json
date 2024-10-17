@@ -1,0 +1,23 @@
+{
+    "projects": [
+      {
+        "name": "Focus Frame",
+        "img": "./img/portfolio/Photography_School.jpg",
+        "desc": "The landing page for 'Focus.Frame' photography courses offers an overview of available courses, lectures, reviews, and more.",
+        "url":"https://viktoriiaolex.github.io/code-hunters-project/"
+      },
+      {
+        "name": "Aqua Track",
+        "img": "./img/portfolio/Photography_School.jpg",
+        "desc": "The landing page for 'Focus.Frame' photography courses offers an overview of available courses, lectures, reviews, and more.",
+        "url":"https://viktoriiaolex.github.io/code-hunters-project/"
+      },
+      {
+        "name": "Ukrainian Threads",
+        "img": "./img/portfolio/Photography_School.jpg",
+        "desc": "The landing page for 'Focus.Frame' photography courses offers an overview of available courses, lectures, reviews, and more.",
+        "url":"https://viktoriiaolex.github.io/code-hunters-project/"
+      }
+
+    ]
+}
