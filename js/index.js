@@ -14,8 +14,6 @@ const modal = document.querySelector('.modal');
     })
 
 const modalCloseFromMenu = document.querySelectorAll('.modal-nav .nav-link');
-
-
 modalCloseFromMenu.forEach((link) => {
     link.addEventListener('click', (e) => {
     modal.classList.toggle('open');
@@ -23,13 +21,7 @@ modalCloseFromMenu.forEach((link) => {
 
 }) 
 
-// const links = document.querySelectorAll('.nav-link');
-// links.forEach(link =>{
-//     link.addEventListener('click', (e) =>{
-//         e.preventDefault()
-//         modal.classList.toggle('open');
-//     })
-// })
+/
 
 
 // Portfolio section

@@ -569,9 +569,10 @@ img {
     padding: 10px;
     background-color:  var(--green-very-light);
     width: 100%;
+    transition: all 250ms linear;
 }
 .portfolio-list .portfolio-item:hover,
-.portfolio-list     .portfolio-item:focus {
+.portfolio-list .portfolio-item:focus {
     transform: scale(1.05);
 }
 .portfolio-img {
