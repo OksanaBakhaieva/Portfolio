@@ -1,22 +1,35 @@
 // Open-close modal-menu
 
-const buttons = document.querySelectorAll('button');
-const links = document.querySelectorAll('.nav-link');
+const modalOpen = document.querySelector('.menu-open-button');
+const modalClose = document.querySelector('.modal-close-button');
 const modal = document.querySelector('.modal');
 
-buttons.forEach((button) => {
-    button.addEventListener('click', (e) => {
+    modalOpen.addEventListener('click', (e) => {
         e.preventDefault();
         modal.classList.toggle('open');
     })
-})
-
-links.forEach(link =>{
-    link.addEventListener('click', (e) =>{
-        e.preventDefault()
+    modalClose.addEventListener('click', (e) => {
+        e.preventDefault();
         modal.classList.toggle('open');
     })
+
+const modalCloseFromMenu = document.querySelectorAll('.modal-nav .nav-link');
+
+
+modalCloseFromMenu.forEach((link) => {
+    link.addEventListener('click', (e) => {
+    modal.classList.toggle('open');
 })
+
+}) 
+
+// const links = document.querySelectorAll('.nav-link');
+// links.forEach(link =>{
+//     link.addEventListener('click', (e) =>{
+//         e.preventDefault()
+//         modal.classList.toggle('open');
+//     })
+// })
 
 
 // Portfolio section
@@ -26,12 +39,8 @@ links.forEach(link =>{
 fetch('projects.json') 
     .then(res => res.json())
     .then(data => {
-        console.log(data);
-        
         const projectsGallery = document.querySelector('.portfolio-list');
         data.projects.forEach(project => {
-            console.log(project);
-
         projectsGallery.innerHTML += `
          <li class="portfolio-item">
             <a href="${project.url}" class="portfolio-link" target="_blank">

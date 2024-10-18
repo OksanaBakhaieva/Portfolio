@@ -209,6 +209,7 @@ img {
     font-family: var(--ff-ernestandemily);
     font-weight: 500;
     font-size: 32px;
+    color: var(--plyr-color-main)
 }
 .header-logo:hover {
     color: var(--plyr-color-main);
@@ -339,24 +340,30 @@ img {
 
 @media screen and (min-width: 768px) {
     .hero-container {
-        height: calc(100vh - 98px);
+        height: calc(100vh - 142px);
+       
+
     }
     .hero-title::before {
+        content: "Ksena  *";
+        font-family: var(--ff-ernestandemily);
         font-size: 88px;
+        text-transform: capitalize;
+        display: block;
     }
     .hero-title {
-        font-size: 44px;
+        font-size: 42px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .hero-container {
         gap: 80px;
-        height: calc(100vh - 135px);
+        height: calc(100vh - 187px);
     }
     .hero-title::before {
         display: block;
-        font-size: 208px;
+        font-size: 102px;
     }
     .hero-title {
         font-size: 52px;
@@ -478,14 +485,7 @@ img {
         font-size: 36px;
         line-height: 1;
     }
-    .hero-title::before {
-        content: 'Ksena*';
-        font-family: var(--ff-ernestandemily);
-        font-size: 52px;
-        color: var(--border-color-light);
-        display: block;
-        text-transform: none;
-    }
+   
     .about-text1,
     .about-text2 {
         font-size: 16px;
@@ -569,7 +569,11 @@ img {
     padding: 10px;
     background-color:  var(--green-very-light);
     width: 100%;
-    }
+}
+.portfolio-list .portfolio-item:hover,
+.portfolio-list     .portfolio-item:focus {
+    transform: scale(1.05);
+}
 .portfolio-img {
     max-width: 300px;
     height: auto;
@@ -633,6 +637,9 @@ img {
     .portfolio-title{
         font-size: 42px;
     }
+    .portfolio-quote {
+        font-size: 44px;
+    }
     .portfolio-text {
         font-size: 44px;
         margin-bottom: 36px;
@@ -652,7 +659,7 @@ img {
 }
 .benefits-container {
     padding-top: 32px;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
     color: var(--border-color-light);
     font-weight: 200;
 }
@@ -677,6 +684,10 @@ img {
 }
 .benefits-text {
     text-align: center;
+    margin-bottom: 16px;
+}
+.benefits-text-extra {
+    display: none;
 }
 .benefits-list {
     display: grid;
@@ -715,6 +726,10 @@ img {
     color: white;
 }
 @media screen and (min-width: 768px) {
+    .benefits-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     .benefits-quote {
         font-size: 44px;
     }
@@ -727,7 +742,16 @@ img {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 32px;;
+        letter-spacing: -0.01em;
+    } 
+    .benefits-text-extra {
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+        letter-spacing: -0.01em;
     }
     .benefits-list {
         display: grid;
@@ -800,13 +824,19 @@ img {
     color: var(--green-dark); 
 }
 .contact-me-phone {
-    
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
-  
+    width: 100%;
+    height: 100%;
+   
+}
+.contact-me-phone:hover,
+.contact-me-phone:focus {
+    text-decoration: underline;
+    color: white;
 }
 .contact-me-email {
     text-transform: uppercase;
@@ -814,9 +844,14 @@ img {
     justify-content: center;
     align-items: center;
     gap: 16px;
-  
-    }
-
+    width: 100%;
+    height: 100%;
+}
+.contact-me-item2 .contact-me-email:hover,
+.contact-me-item2 .contact-me-email:focus {
+    text-decoration: underline;
+    color: var(--green-dark);
+}
 .contact-me-phone-icon {
     fill: var(--plyr-color-main);
     
@@ -896,6 +931,13 @@ img {
 .footer-socials-link:hover,
 .footer-socials-link:focus{
     fill: var(--plyr-color-main);
+    text-decoration: underline;
+}
+.footer-copyright {
+    color: var(--green-light);
+    text-align: center;
+    margin-top: 16px;
+
 }
 @media screen and (min-width: 768px) { 
     .footer {
