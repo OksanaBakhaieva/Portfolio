@@ -1,23 +1,40 @@
 {
     "projects": [
       {
+        "name": "Project Manager App",
+        "img": "./img/portfolio/Project_Manager.jpg",
+        "desc": "As part of a backend development team of five, I implemented server-side functionality using PHP and MySQL, applied Object-Oriented Programming (OOP) principles, and developed unit tests to ensure the reliability of the Project Manager App, a tool to manage clients, projects, and tasks efficiently",
+        "url":"https://2024-dart-frog-project-management.dev.io-academy.uk/"
+      },
+      {
+        "name": "Email Client App",
+        "img": "./img/portfolio/Email_Client.jpg",
+        "desc": "I worked as part of a team to develop an app that allows clients to manage their inbox, including reading, composing, and deleting emails. Role: Frontend Developer - Built the user interface with ReactJS and TailwindCSS, and integrated API functionality for email management",
+        "url":"https://2024-red-pandas-email-client.dev.io-academy.uk/"
+      },
+      {
         "name": "Focus Frame",
         "img": "./img/portfolio/Photography_School.jpg",
-        "desc": "The landing page for 'Focus.Frame' photography courses offers an overview of available courses, lectures, reviews, and more",
+        "desc": "I collaborated with a team to create a responsive website for a photography school, designed to showcase its services and offerings. As a Frontend Developer, I built the Header section and implemented the modal menu using HTML, CSS, and JavaScript",
         "url":"https://viktoriiaolex.github.io/code-hunters-project/"
       },
       {
         "name": "Aqua Track",
         "img": "./img/portfolio/Aqua_Track.jpg",
-        "desc": "Aqua Track App is an easy-to-use water tracker that lets users sign up with either email/password or their Google account. From the homepage, users can log, edit, and delete their water intake while monitoring their progress toward daily hydration goals",
+        "desc": "Working as part of a team of eight, I contributed to developing of a web application for water tracking and management. In my role as a backend developer, I implemented user authentication features, including signup, signin, and logout, using Node.js, MongoDB, and Swagger for API documentation, while applying Object-Oriented Programming (OOP) principles",
         "url":"https://aquahackers-project.vercel.app/"
       },
       {
-        "name": "Ukrainian Threads",
-        "img": "./img/portfolio/Ukrainian_Threads.jpg",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero quaerat est? Pariatur id necessitatibus illo ipsum dolore magni quam",
-        "url":"https://oksanabakhaieva.github.io/UkrainianThreads/"
+        "name": "Portfolio for a Software Developer",
+        "img": "./img/portfolio/Jeff's_Portfolio.jpg",
+        "desc": "I worked with a team to develop a responsive website  highlighting a developer's work experience and skills, incorporating transform effects and a modal menu. As Frontend Developer, I built the Covers and Benefits sections using HTML, CSS, and JavaScript",
+        "url":"https://kkvaldys.github.io/ProfIT-project-js/"
+      },
+      {
+        "name": "WebStudio",
+        "img": "./img/portfolio/Web_Studio.jpg",
+        "desc": "My first project: a WebStudio landing page built with HTML and CSS, featuring responsive design and optimised, retina-ready (high-DPI) images for high-resolution displays",
+        "url":"https://oksanabakhaieva.github.io/goit-markup-hw-06/"
       }
-
     ]
 }
